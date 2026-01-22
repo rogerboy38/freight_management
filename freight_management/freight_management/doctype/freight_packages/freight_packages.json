@@ -1,0 +1,124 @@
+{
+ "doctype": "DocType",
+ "name": "Freight Packages",
+ "module": "Freight Management",
+ "custom": 0,
+ "istable": 1,
+ "fields": [
+  {
+   "fieldname": "description",
+   "fieldtype": "Data",
+   "label": "Description",
+   "in_list_view": 1
+  },
+  {
+   "fieldname": "packages",
+   "fieldtype": "Data",
+   "label": "Packages",
+   "in_list_view": 1
+  },
+  {
+   "fieldname": "quantity",
+   "fieldtype": "Int",
+   "label": "Quantity",
+   "in_list_view": 1
+  },
+  {
+   "fieldname": "operation",
+   "fieldtype": "Data",
+   "label": "Operation",
+   "in_list_view": 1
+  },
+  {
+   "fieldname": "volume_cbm",
+   "fieldtype": "Int",
+   "label": "Volume Cbm",
+   "in_list_view": 1
+  },
+  {
+   "fieldname": "gross_weight_kg",
+   "fieldtype": "Int",
+   "label": "Gross Weight Kg",
+   "in_list_view": 1
+  },
+  {
+   "fieldname": "dangerous_goods",
+   "fieldtype": "Int",
+   "label": "Dangerous Goods",
+   "in_list_view": 1
+  },
+  {
+   "fieldname": "class_number",
+   "fieldtype": "Data",
+   "label": "Class Number",
+   "in_list_view": 1
+  },
+  {
+   "fieldname": "un_number",
+   "fieldtype": "Data",
+   "label": "Un Number",
+   "in_list_view": 1
+  },
+  {
+   "fieldname": "packaging_group",
+   "fieldtype": "Data",
+   "label": "Packaging Group",
+   "in_list_view": 1
+  },
+  {
+   "fieldname": "imdg_code",
+   "fieldtype": "Int",
+   "label": "Imdg Code",
+   "in_list_view": 1
+  },
+  {
+   "fieldname": "flash_point",
+   "fieldtype": "Data",
+   "label": "Flash Point",
+   "in_list_view": 1
+  },
+  {
+   "fieldname": "material_description",
+   "fieldtype": "Text",
+   "label": "Material Description",
+   "in_list_view": 1
+  },
+  {
+   "fieldname": "harmonize",
+   "fieldtype": "Data",
+   "label": "Harmonize",
+   "in_list_view": 1
+  },
+  {
+   "fieldname": "temrerature",
+   "fieldtype": "Data",
+   "label": "Temrerature",
+   "in_list_view": 1
+  },
+  {
+   "fieldname": "vgm",
+   "fieldtype": "Data",
+   "label": "Vgm",
+   "in_list_view": 1
+  },
+  {
+   "fieldname": "carrier_seal",
+   "fieldtype": "Data",
+   "label": "Carrier Seal",
+   "in_list_view": 1
+  },
+  {
+   "fieldname": "shipper_seal",
+   "fieldtype": "Data",
+   "label": "Shipper Seal",
+   "in_list_view": 1
+  },
+  {
+   "fieldname": "reference",
+   "fieldtype": "Data",
+   "label": "Reference",
+   "in_list_view": 1
+  }
+ ],
+ "permissions": []
+}

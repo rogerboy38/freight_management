@@ -1,0 +1,17 @@
+{
+ "doctype": "DocType",
+ "name": "Freight Packages Parent",
+ "module": "Freight Management",
+ "custom": 0,
+ "istable": 0,
+ "fields": [],
+ "permissions": [
+  {
+   "role": "System Manager",
+   "read": 1,
+   "write": 1,
+   "create": 1,
+   "delete": 1
+  }
+ ]
+}

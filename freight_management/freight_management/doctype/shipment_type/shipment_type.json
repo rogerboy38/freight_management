@@ -1,0 +1,24 @@
+{
+ "doctype": "DocType",
+ "name": "Shipment Type",
+ "module": "Freight Management",
+ "custom": 0,
+ "istable": 0,
+ "fields": [
+  {
+   "fieldname": "shipment_type",
+   "fieldtype": "Data",
+   "label": "Shipment Type",
+   "in_list_view": 1
+  }
+ ],
+ "permissions": [
+  {
+   "role": "System Manager",
+   "read": 1,
+   "write": 1,
+   "create": 1,
+   "delete": 1
+  }
+ ]
+}
