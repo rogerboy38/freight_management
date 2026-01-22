@@ -1,0 +1,52 @@
+{
+ "doctype": "DocType",
+ "name": "Shipment Parcel",
+ "module": "Freight Management",
+ "custom": 0,
+ "istable": 1,
+ "fields": [
+  {
+   "fieldname": "length",
+   "fieldtype": "Int",
+   "label": "Length",
+   "in_list_view": 1
+  },
+  {
+   "fieldname": "width",
+   "fieldtype": "Int",
+   "label": "Width",
+   "in_list_view": 1
+  },
+  {
+   "fieldname": "height",
+   "fieldtype": "Int",
+   "label": "Height",
+   "in_list_view": 1
+  },
+  {
+   "fieldname": "weight",
+   "fieldtype": "Currency",
+   "label": "Weight",
+   "in_list_view": 1
+  },
+  {
+   "fieldname": "count",
+   "fieldtype": "Int",
+   "label": "Count",
+   "in_list_view": 1
+  },
+  {
+   "fieldname": "custom_weight_kg_net",
+   "fieldtype": "Currency",
+   "label": "Custom Weight Kg Net",
+   "in_list_view": 1
+  },
+  {
+   "fieldname": "custom_weight_kg_tare",
+   "fieldtype": "Currency",
+   "label": "Custom Weight Kg Tare",
+   "in_list_view": 1
+  }
+ ],
+ "permissions": []
+}
