@@ -7,6 +7,7 @@ except ImportError:
     app_version = __version__
 
 app_name = "freight_management"
+required_apps = ["erpnext"]
 app_title = "Freight Management"
 app_publisher = "Your Name"
 app_description = "Freight Management"
